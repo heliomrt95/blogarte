@@ -4,7 +4,7 @@ require_once '../../functions/ctrlSaisies.php';
 
 $numStat = ($_POST['numStat']);
 
-sql_delete('THEMATIQUE', "numStat = $numStat");
+sql_delete('STATUT', "numStat = $numStat");
 
 
-header('Location: ../../views/backend/thematiques/list.php');
+header('Location: ../../views/backend/statuts/list.php');
