@@ -1,6 +1,6 @@
 <?php
-//define ROOT_PATH (use project directory so includes resolve correctly)
-define('ROOT', __DIR__);
+//define ROOT_PATH
+define('ROOT', $_SERVER['DOCUMENT_ROOT']);
 define('ROOT_URL', 'http://' . $_SERVER['HTTP_HOST']);
 
 //Load env
